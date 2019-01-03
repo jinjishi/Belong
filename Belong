@@ -1,0 +1,32 @@
+# Belong
+package intership2.dao;
+public class Belong {
+public String Storeid;
+public String Productid;
+public String Color;
+public int Size;
+public String GetterStoreid() {
+	return this.Storeid;
+}
+public void SetterStoreid(String Storeid) {
+	this.Storeid=Storeid;
+}
+public String GetterProductid() {
+	return this.Productid;
+}
+public void SetterProductid(String Productid) {
+	this.Productid=Productid;
+}
+public String GetterColor() {
+	return this.Color;
+}
+public void SetterColor(String Color) {
+	this.Color=Color;
+}
+public int GetterSize() {
+	return this.Size;
+}
+public void SetterSize(int Size) {
+	this.Size=Size;
+}
+}
